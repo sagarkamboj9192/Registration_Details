@@ -1,0 +1,251 @@
+.App {
+  width: 100vw;
+  height: auto;
+  /* display: flex; */
+  /* align-items: center; */
+  /* padding-top: 40px; */
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: #626365;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  margin-left: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  padding: 0px 13px;
+  color: white;
+}
+
+.navbar a:hover {
+  color: rgb(226, 221, 221);
+}
+
+
+.navbar img {
+  height: 66px;
+  width: 72px;
+  margin: 1px 14px;
+  border-radius: 45px;
+
+}
+
+#cont {
+  margin: 0px;
+  height: 400px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#cont::before {
+  content: "";
+  background: url('./back_image.jpg') no-repeat center center/cover;
+  position: absolute;
+  width: 100%;
+  height: 108%;
+  z-index: -1;
+}
+
+.h-primary {
+  text-align: center;
+  font-size: 3.1rem;
+}
+
+.h-secondary{
+  text-align: center;
+  font-size: 1.9rem;
+  color: rgb(18, 17, 17);
+}
+
+.container{
+  display: flex;
+  margin: 34px;
+}
+
+
+.serv{
+  padding: 22px 30px;
+  margin: 0px 12px;
+  border: 2px solid black;
+  border-radius: 19px;
+  text-align: center;
+  background-color: #e7e5e3;
+
+}
+.serv p{
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+footer{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+
+.post {
+  /* width: 400px;
+  height: 300px; */
+  border-radius: 10px;
+  /* display: flex;
+  flex-direction: column;
+  margin-top: 50px; */
+  margin: 34px;
+  border: 3px solid rgb(130, 128, 128);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(250, 247, 247, 0.947);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.post:hover {
+  box-shadow: rgba(36, 36, 37, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+}
+
+.post .title{
+  margin: 23px 0px;
+  padding-left: 80px;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.post button{
+  padding: 8px 21px;
+  font-size: 1rem;
+  /* margin: 11px; */
+  margin-bottom: 17px;
+  margin-left: 75%;
+  border-radius: 4px;
+}
+
+.post button:hover{
+  cursor: pointer;
+  background-color: #b2b5bc;
+}
+
+/* .post .title {
+  flex: 20%;
+  border-bottom: 1px solid lightgray;
+  background-color: dodgerblue;
+  display: grid;
+  place-content: center;
+  color: white;
+  
+}
+
+.post .body {
+  flex: 60%;
+  display: grid;
+  place-content: center;
+}
+
+.post .footer {
+  flex: 20%;
+  border-top: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  background-color: dodgerblue;
+  color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+} */
+
+/* CREATE POST PAGE CSS */
+
+.createPostPage {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0px;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  border: 5px solid #94989c;
+  border-radius: 35px;
+}
+.formContainer label{
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.formContainer #inputCreatePost {
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.formContainer button {
+  margin-top: 15px;
+  height: 40px;
+  border: none;
+  background-color: #626365;
+  border-radius: 5px;
+  color: white;
+}
+
+.formContainer button:hover {
+  cursor: pointer;
+  background-color: rgb(40, 40, 41);
+}
+
+span {
+  color: red;
+}
+
+
+.searchform{
+  display: flex;
+  justify-content: center;
+}
+
+.searchform form input{
+  margin-right: 23px;
+  width: 245px;
+  height: 39px;
+  font-size: 1.2rem;
+  
+}
+.searchform form button{
+  padding: 8px 21px;
+  font-size: 1rem;
+  /* margin: 11px; */
+  /* margin-bottom: 17px;
+  margin-left: 75%; */
+  border-radius: 4px;
+}
+.searchform form button:hover{
+  cursor: pointer;
+  background-color: #b2b5bc;
+}
