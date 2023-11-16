@@ -2,5 +2,5 @@
 This project can be used by many organizations to manage their records like adding , deleting, searching for the particular
 
 # Overview
-![Uploading Screenshot (3).png…]()
-![Uploading Screenshot (4).png…]()
+ ![Screenshot 1](https://github.com/sagarkamboj9192/Registration_Details/assets/112564450/30011800-2eff-47fa-bfc5-1afb801ee86b)
+
